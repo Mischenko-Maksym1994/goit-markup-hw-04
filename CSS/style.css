@@ -356,14 +356,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-.customers-item {
+.customers-link {
   width: 170px;
   height: 92px;
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  fill: var(--icon-color);
 }
 .customers-item + .customers-item {
   margin-left: 30px;
@@ -371,19 +376,19 @@ body {
 .customer-icon {
   width: 106px;
   height: 60px;
-  fill: var(--icon-color);
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
+.customers-link:hover,
+.customers-link:focus {
   fill: var(--acsent-color);
+  border: 1px solid var(--acsent-color);
 }
 
-.customer-icon:hover .customers-link,
+/* .customer-icon:hover .customers-link,
 .customer-icon:focus .customers-link {
-  /* border: 1px solid var(--acsent-color); */
+  border: 1px solid var(--acsent-color);
   fill: var(--acsent-color);
-}
+} */
 
 /*----Footer-----*/
 footer {
