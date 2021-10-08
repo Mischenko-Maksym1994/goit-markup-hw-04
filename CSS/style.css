@@ -362,10 +362,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   fill: var(--icon-color);
@@ -384,12 +380,6 @@ body {
   border: 1px solid var(--acsent-color);
 }
 
-/* .customer-icon:hover .customers-link,
-.customer-icon:focus .customers-link {
-  border: 1px solid var(--acsent-color);
-  fill: var(--acsent-color);
-} */
-
 /*----Footer-----*/
 footer {
   background-color: #2f303a;
@@ -406,9 +396,14 @@ address {
 .foot {
   padding-top: 60px;
   padding-bottom: 60px;
+  /* display: flex; */
   margin: 0 auto;
   max-width: 1600px;
 }
+.footer-conteiner {
+  display: flex;
+}
+
 .adress-list > li:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -430,6 +425,22 @@ address {
 
 .footer-logo {
   color: var(--primary-title-color);
+}
+.our-links-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+  margin-bottom: 20px;
+}
+.links {
+  margin-left: 70px;
+}
+.our-sotial-link {
+}
+.our-sotial-item {
 }
 
 /*----Portfolio-----*/
