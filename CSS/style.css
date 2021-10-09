@@ -68,7 +68,9 @@ body {
   text-align: center;
   color: var(--secondary-title-color);
 }
+
 /*----Header-----*/
+
 .header {
   max-width: 1600px;
   margin: 0 auto;
@@ -81,8 +83,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   margin-right: 93px;
 }
 .color-logo {
@@ -101,6 +103,8 @@ body {
 
 .header-list {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-item:not(:last-child) {
@@ -390,20 +394,27 @@ address a {
   font-style: normal;
 }
 address {
-  margin-top: 20px;
+  width: 231px;
 }
 
 .foot {
   padding-top: 60px;
   padding-bottom: 60px;
-  /* display: flex; */
+  display: flex;
   margin: 0 auto;
   max-width: 1600px;
 }
 .footer-conteiner {
   display: flex;
 }
-
+.footer-adress {
+  margin-right: 70px;
+}
+.logo-footer {
+  display: block;
+  width: 231px;
+  margin-bottom: 20px;
+}
 .adress-list > li:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -435,12 +446,20 @@ address {
   color: var(--primary-title-color);
   margin-bottom: 20px;
 }
-.links {
+/* .links {
   margin-left: 70px;
+} */
+.our-sotial-list {
+  display: flex;
+  justify-content: center;
+  width: 206px;
 }
+.our-sotial-icon {
+  fill: #ffffff;
+}
+
 .our-sotial-link {
-}
-.our-sotial-item {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*----Portfolio-----*/
@@ -496,6 +515,11 @@ address {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+.projects-list:hover,
+.projects-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-link-conteiner {
