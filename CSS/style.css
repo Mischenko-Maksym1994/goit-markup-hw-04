@@ -215,8 +215,11 @@ body {
 
 .hero-btn {
   margin: 0 auto;
+  border: none;
 }
-
+.hero-btn:hover {
+  background: #188ce8;
+}
 /*----Feature-----*/
 .feature {
   padding-top: 94px;
@@ -245,7 +248,6 @@ body {
 .feature-icon {
   width: 70px;
   height: 70px;
-  /* align-items: center; */
 }
 
 .feature-title {
